@@ -1,0 +1,26 @@
+body{
+	width: 80%;
+	border: 20px solid #bdc3c7;
+	margin: 20px auto 20px auto;
+	max-width: 700px;
+	padding: 20px;
+	font-family: Open Sans;
+}
+
+h4{
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: #3498db;
+}
+
+.FirstP{
+	border-left: medium solid #bdc3c7;
+	padding-left: 10px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+ 

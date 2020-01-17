@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+}
+
+table{
+	background-color: black;
+	border: medium solid white;
+	margin:auto;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+	color: white;
+	background-color: white;
+}
+
+
+/*
+.v{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.h{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+*/
+

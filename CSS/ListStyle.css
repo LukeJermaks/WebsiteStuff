@@ -1,0 +1,15 @@
+body{
+	background: rgba(95,95,95,1.00);
+}
+
+ul{
+	font-size: 20px;
+}
+
+.highlight{
+	color: aqua;
+}
+
+#special{
+	text-decoration: underline;
+}

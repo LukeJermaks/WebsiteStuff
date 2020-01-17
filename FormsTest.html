@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms Task</title>
+</head>
+
+<body>
+	<h1>Register</h1>
+	
+	<form>
+	<div>
+	<lable for="firstName">First Name:</lable>
+	<input name="fName" id="firstName" type="text" placeholder="John" required>
+		
+	<lable for="lastName">Last Name:</lable>
+	<input name="lName" id="lastName" type="text" placeholder="Smith" required>
+		
+	</div>
+	<div>
+		
+			
+	<lable for="male">Male</lable>
+	<input id="male" name="gender" type="radio" value="male" required>
+		
+	<lable for="female">Female</lable>
+	<input id="female" name="gender" type="radio" value="female" required>
+		
+	<lable for="other">Other</lable>
+	<input id="other" name="gender" type="radio" value="other" required>
+		
+	</div>
+	<div>
+		
+	<lable for="email">Email: </lable>
+	<input name="email" id="email" type="email" required>
+	
+	<lable for="pass">Password: </lable>
+	<input name="pass" id="pass" type="password" minlength="5" maxlength="10" required>
+		
+	</div>
+	<div>
+	
+	<lable>
+		Date of birth:
+		<select>
+		<option>Day</option>	
+		</select>
+
+		<select>
+		<option>Month</option>	
+		</select>
+
+		<select>
+		<option>Year</option>	
+		</select>
+		
+	</lable>
+	
+	</div>
+	<div>
+		
+	<lable for="TaC">I agree to the terms and conditions</lable>
+	<input id="TaC" type="checkbox" required>
+	
+	</div>
+	<div>
+		
+	<input type="submit">
+		
+	</div>	
+		
+	</form>
+	
+</body>
+</html>
